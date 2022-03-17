@@ -44,3 +44,19 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## To Use this Repository
+
+Cloning and Running the Application in local
+
+Clone the project into local
+
+Install all the npm packages. Go into the project folder and type the following command to install all npm packages
+
+npm install
+
+In order to run the application Type the following command
+
+npm start
+
+The Application Runs on localhost:3000
