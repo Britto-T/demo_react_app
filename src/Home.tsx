@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState,useEffect,useRef} from 'react'
+import About from './About';
 
 const Home=()=>{
     const [name,setName] = useState("");
@@ -16,6 +17,7 @@ const Home=()=>{
             <input type="text" ref={inputRef} name="User Name" onChange={(event:any)=>setName(event.target.value)} value={name}/>
             <p>The Entered name is {name} </p>
             <p>The Number of times the page rendered is {inputRef.current}</p>
+            <About/>
         </React.Fragment>
     )
 }
