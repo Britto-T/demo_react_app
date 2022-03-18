@@ -3,7 +3,7 @@ import React from 'react'
 const About=()=>{
     return(
         <React.Fragment>
-            <p>I am a About Page</p>
+            <h4 style={{color:"Red"}}>I am a About Page</h4>
         </React.Fragment>
     )
 }
