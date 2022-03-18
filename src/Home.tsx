@@ -7,14 +7,17 @@ import Contact from './Contact'
 
 const Home=()=>{
     const [name,setName] = useState("");
-    const inputRef = useRef(1);
+    const inputRef = useRef<any>(1);
     const refFocus =useRef<any>();
 
     useEffect(()=>{
-        inputRef.current = inputRef.current+1;
         refFocus.current.focus();
-    },[]);     
-
+    },[]);  
+    
+    useEffect(()=>{
+        inputRef.current = inputRef.current+1;
+    });  
+       
     return(
         <React.Fragment>
             <h4>I am a Home Page</h4>
